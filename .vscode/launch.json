@@ -1,0 +1,44 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:ai-tools-manager}",
+            "name": "Debug aitm",
+            "target": "aitm",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug aitm"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:ai-tools-manager}",
+            "name": "Release aitm",
+            "target": "aitm",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release aitm"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:ai-tools-manager}",
+            "name": "Debug AIToolsManager",
+            "target": "AIToolsManager",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug AIToolsManager"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:ai-tools-manager}",
+            "name": "Release AIToolsManager",
+            "target": "AIToolsManager",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release AIToolsManager"
+        }
+    ]
+}
